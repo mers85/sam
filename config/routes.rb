@@ -27,6 +27,8 @@ Rails.application.routes.draw do
       resources :employees do
         resources :checkings
       end
+
+      resources :sessions, only: [:create]
     end
   end
 
