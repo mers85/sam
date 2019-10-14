@@ -72,3 +72,4 @@ gem 'whenever', require: false
 
 gem 'rack-cors'
 gem 'rack-attack'
+gem 'apipie-rails'

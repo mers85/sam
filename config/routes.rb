@@ -1,6 +1,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  apipie
   namespace :admin do
     resources :users
     resources :notifications
