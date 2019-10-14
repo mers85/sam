@@ -21,6 +21,6 @@ SAM is a system for entering and leaving employees.
 
 ### Api Docs
 * run the app
-* Go to this link [api_docs v1] http://localhost:5000/api_docs/v1
+* Go to this link  http://localhost:5000/api_docs/v1
 
 * ...
