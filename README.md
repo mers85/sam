@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+SAM is a system for entering and leaving employees.
 
-Things you may want to cover:
+## Requirements:
 
-* Ruby version
+* Ruby 2.6.1
+* Rails 6
+* bundler - gem install bundler
+* Yarn - brew install yarn or Install Yarn
+* Redis - For ActionCable support
+* Foreman - gem install foreman - helps run all your processes in development
 
-* System dependencies
+## Database creation
+* Run the app and sign up, by default the user is an employee
+* For now: To create an Admin you can run on rails console 
+  user = User.create(email: "email", password: "password", admin: true), user.save
 
-* Configuration
+### How to run the test suite
+* use foreman start
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+### Api Docs
+* run the app
+* Go to this link [api_docs v1] http://localhost:5000/api_docs/v1
 
 * ...
